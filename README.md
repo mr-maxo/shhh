@@ -1,0 +1,2 @@
+# shhh
+Small linux scripts
