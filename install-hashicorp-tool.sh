@@ -45,7 +45,7 @@ done
 # install tool
 curl -o /tmp/${product}.zip \
     ${hc_url}/${product}/${version}/${product}_${version}_linux_${arch}.zip
-unzip /tmp/${product}.zip -d /usr/bin/
+unzip -o /tmp/${product}.zip -d /usr/bin/
 
 # create config dir
 mkdir -p "/etc/${product}"
