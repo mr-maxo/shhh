@@ -53,5 +53,5 @@ touch "/etc/$product/config.hcl"
 
 # create data dir
 if [[ $product =~ ^(nomad|consul)$ ]]; then
-    mkdir "/var/lib/$product"
+    mkdir -p "/var/lib/$product"
 fi
